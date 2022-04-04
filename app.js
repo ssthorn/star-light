@@ -4,6 +4,7 @@ require("dotenv").config();
 const cors = require('cors');
 const methodOverride = require("method-override");
 const session = require("express-session");
+const mongoose = require("mongoose")
 // const MongoDBStore = require("connect-mongodb-session")(session);
 const morgan = require('morgan');
 // const store = new MongoDBStore({uri: process.env.MONGO_URI,collection: "mySessions",});
